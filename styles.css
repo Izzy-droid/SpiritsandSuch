@@ -1,0 +1,119 @@
+#resized{
+    width: 1000px;
+    height: auto;
+    display: grid;
+    place-items: center;
+}
+
+.container{
+    display: grid;
+    place-items: center;
+    margin-top: 50px;
+}
+body {
+    background-image: url('back.jpeg');
+    background-repeat: repeat;
+    background-size: auto; /* Ensure the image tiles naturally */
+    width: 100%; 
+    height: 200px; 
+}
+.page{
+    display: grid;
+    place-items: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    gap: 10px;
+    margin-top: 50px;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.words{
+    font-family:comic sans ms;
+    margin-left:10px;
+}
+.blink {
+    animation: blinker 1s step-start infinite;
+  }
+  
+ @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+#green{
+    width:75%;  
+}
+.ugh{
+    display: grid;
+    place-items: center;
+    margin-top: 50px;
+}
+#intro{
+    display: grid;
+    place-items: center;
+    margin-top: 100px;
+}
+#welcome{
+    font-size: 30px;
+}
+.para{
+    display:flex;
+    justify-content: center;
+}
+.visit{
+    display: flex;
+    justify-content: center;
+}
+#credit{
+    font-size: 10px;
+}
+#salt{
+    width: 500px;
+    height: 300px;
+    
+}
+#cleanse{
+    width: 500px;
+    height: 300px;
+}
+#reigen-photo{
+    width: 800px;
+    height: 500px;
+}
+#mob{
+    width:500px;
+    height: 300px;
+}
+#serizawa{
+    width:500px;
+    height: 300px;
+}
+.seri{
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+}
+.reigen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+#eater-regular {
+    font-family: "Eater", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+
+}
+#real{
+    color: white;
+}
+.blockline{
+    font-size:30px;
+}
+.satis{
+    color: white;
+    font-family: comic sans ms;
+}
